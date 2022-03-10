@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    border-spacing: 30px;
+}
+
+tr th {
+    font-size: 1.7rem;
+}
+
+#Btn-div {
+    text-align: center;
+}
+
+button {
+    background-color: #11468F; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: white;
+    color: #11468F;
+  }
+
+.carousel-container {
+    width: 27.5%;
+    margin: auto;
+    overflow: hidden;
+    border:5px solid #548CA8;
+    
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;   
+}
+
+
+#Personal-details {
+    background-color: #548CA8;
+    color: #fff;
+    padding: 4% 0;
+    text-align: center;
+}
+
+#Personal-details img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+#Personal-details p {
+    margin-top: 1%;
+}
+
+
+#Skills, #Education {
+    margin: 4% 0;
+    color: #11468F;
+    padding-left: 20%;
+    
+}
+
+#Contact {
+    margin: 5% 0;
+    text-align: center;
+}
+
+#Contact a {
+    padding: 0 1%;
+    text-decoration: none;
+    color: #11468F;
+}
+
+#Contact p {
+    margin: 50px;
+}
